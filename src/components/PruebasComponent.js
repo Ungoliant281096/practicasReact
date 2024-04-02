@@ -23,7 +23,6 @@ export const PruebasComponent = () => {
     useEffect(() => {
         setContador(contador + 1);
         console.log("Has modificado el usuario: " + contador);
-
     }, [fecha,usuario])
 
   return (
